@@ -1,0 +1,26 @@
+
+1. What is the value of clothes[0] and why?
+const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+console.log(clothes[0]);
+solution: jacket
+As array index always start from 0.
+So clothes[0] gives us jacket.
+
+
+2. Write a Javascript program to find the sum of all elements of a given array?
+<html>
+<head></head>
+<body>
+<script>
+var array = [1, 2, 3, 4, 5, 6],
+    var s = 0,
+    var i;
+for (i = 0; i < array.length; i += 1) 
+   {
+    s += array[i];
+    }
+console.log('Sum : '+s );
+</script>
+</body>
+</html> 
